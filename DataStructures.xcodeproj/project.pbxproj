@@ -24,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		142599BF2201F8DF00842E9A /* LinearNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearNode.h; sourceTree = "<group>"; };
+		142599C12202061900842E9A /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		14C7BA7A21FF5B6100F8DC21 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C7BA8921FF5C7C00F8DC21 /* C++EmpoleonStrikesBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C++EmpoleonStrikesBack.png"; sourceTree = "<group>"; };
 		14C7BA8A21FF5D9B00F8DC21 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -47,8 +49,17 @@
 			isa = PBXGroup;
 			children = (
 				14C7BA8F21FF60E900F8DC21 /* Node.hpp */,
+				142599BF2201F8DF00842E9A /* LinearNode.h */,
 			);
 			path = Nodes;
+			sourceTree = "<group>";
+		};
+		142599C0220205FC00842E9A /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				142599C12202061900842E9A /* Array.hpp */,
+			);
+			path = Linear;
 			sourceTree = "<group>";
 		};
 		14C7BA7121FF5B6100F8DC21 = {
@@ -89,6 +100,7 @@
 		14C7BA8521FF5BDD00F8DC21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				142599C0220205FC00842E9A /* Linear */,
 				142599BE2201F0DC00842E9A /* Nodes */,
 			);
 			path = Model;
