@@ -5,12 +5,13 @@
 //  Created by Denna, Zachary on 2/1/19.
 //  Copyright © 2019 Denna, Zachary. All rights reserved.
 //
-
-#ifndef List_h
-#define List_h
 #include <assert.h>
 #include "../../Nodes/LinearNodes.hpp"
 
+#ifndef List_h
+#define List_h
+
+template <class type>
 class List
 {
 protected:
