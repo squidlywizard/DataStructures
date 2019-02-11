@@ -34,12 +34,14 @@ public:
      //Type setAtIndex(int index, Type item);
      bool contains(Type item);
 };
+template <class type>
 LinkedList<Type> :: LinkedList()
 {
     this->front = nullptr;
     this->end = nullptr:
     this->size = 0;
 }
+template <class type>
 LinkedList<Type> :: ~LinkedList()
 {
     LinearNode<Type> * destroyStructure = front;
@@ -50,6 +52,7 @@ LinkedList<Type> :: ~LinkedList()
         destroyStructure = front;
     }
 }
+template <class type>
 void LinkedList<Type> :: add(Type item)
 {
     LinearNode<Type> * newData = new LinearNode<Type>(item);
@@ -70,6 +73,7 @@ void LinkedList<Type> :: add(Type item)
     
     
 }
+template <class type>
 void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
     assert(index >= 0 && index <= this->size);
@@ -100,6 +104,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
         this->size++;
     }
 }
+template <class type>
 Type LinkedList<Type> :: getFromIndex(int index)
 {
     assert(index >= 0 && index < this->size);
@@ -116,6 +121,7 @@ Type LinkedList<Type> :: getFromIndex(int index)
     
     return datal
 }
+template <class type>
 Type LinkedList<Type> :: remove(int index)
 {
     assert(index >= 0 && index < this->size);
@@ -159,15 +165,17 @@ Type LinkedList<Type> :: remove(int index)
     return removedData;
     
 }
-
+template <class type>
 LinearNode<Type> * LinkedList<Type> :: getEnd()
 {
     return this -> end;
 }
+template <class type>
 LinearNode<Type> * LinkedList<Type> :: getFront()
 {
     return this -> front;
 }
+template <class type>
 int LinkedList<Type> :: getSize() const
 {
     return this->size;
