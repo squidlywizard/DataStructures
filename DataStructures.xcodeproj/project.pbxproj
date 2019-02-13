@@ -31,6 +31,7 @@
 /* Begin PBXFileReference section */
 		142599BF2201F8DF00842E9A /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		142599C12202061900842E9A /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		1462872A22146EF700A3DF27 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		147073932209DD0D0012CAB8 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = crime.csv; path = ../../../../../Downloads/crime.csv; sourceTree = "<group>"; };
 		147073942209DD120012CAB8 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CrimeData.hpp; path = ../../../../../Downloads/CrimeData.hpp; sourceTree = "<group>"; };
 		147073952209DD170012CAB8 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CrimeData.cpp; path = ../../../../../Downloads/CrimeData.cpp; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 				14AADFE42204997000E896A4 /* List.hpp */,
 				14AADFE522049D8100E896A4 /* LinkedList.hpp */,
 				14DDE8F02211D61700105B54 /* Stack.hpp */,
+				1462872A22146EF700A3DF27 /* Queue.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
