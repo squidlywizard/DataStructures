@@ -12,7 +12,7 @@
 #include <assert.h>
 #include "../Nodes/LinearNode.hpp"
 
-template <class type>
+template <class Type>
 class List
 {
 protected:

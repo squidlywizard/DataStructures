@@ -87,7 +87,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
         if (index == 0)
         {
             toBeAdded->setNextNode(front);
-            front = toBeAdded
+            front = toBeAdded;
         }
         else
         {
