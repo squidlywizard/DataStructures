@@ -37,7 +37,7 @@ public:
     int getSize() const;
     Type getFromIndex(int index);
     void setAtIndex(int index, Type data);
-}
+};
 template <class Type>
 Array<Type> :: Array(int size)
 {
@@ -56,7 +56,7 @@ Array<Type> :: Array(const Array<Type> & toCopy)
     
     for(int index = 0; index < size; index++)
     {
-        internalArray[index] toCopy[index];
+        internalArray[index];toCopy[index];
     }
 }
 template <class Type>
@@ -91,7 +91,7 @@ Type & Array<Type> :: operator [] (int index)
 }
 
 template <class Type>
-Type Array<Type> :: operatot [] (int index) const
+Type Array<Type> :: operator [] (int index) const
 {
     assert(index >= 0 && index < size);
     return internalArray[index];
