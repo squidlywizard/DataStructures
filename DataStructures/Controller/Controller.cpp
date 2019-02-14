@@ -6,6 +6,7 @@
 //  Copyright © 2019 Denna, Zachary. All rights reserved.
 //
 #include <iostream>
+#include "../Testers/LinearTester.cpp"
 #include "Controller.hpp"
 using namespace std;
 void Controller:: start()
@@ -15,11 +16,12 @@ void Controller:: start()
 }
 void Controller:: usingNodes()
 {
-    Node<int> mine(5);
-    Node<string> wordHolder("words can be stored too");
-    cout << mine.getData() << endl;
-    cout << wordHolder.getData() << endl;
-    wordHolder.setData("replaced text");
-    cout << wordHolder.getData() << endl;
+   // LinearTester();
+//    Node<int> mine(5);
+//    Node<string> wordHolder("words can be stored too");
+//    cout << mine.getData() << endl;
+//    cout << wordHolder.getData() << endl;
+//    wordHolder.setData("replaced text");
+//    cout << wordHolder.getData() << endl;
 }
 

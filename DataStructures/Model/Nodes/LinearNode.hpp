@@ -25,11 +25,12 @@ public:
 };
 
 //implementation of templates
-template <class Type>
-LinearNode<Type> :: LinearNode() : Node()
-{
-    
-}
+//template <class Type>
+//LinearNode<Type> :: LinearNode() : Node<Type>(data)
+//{
+//    this->next = nullptr;
+//
+//}
 
 template <class Type>
 LinearNode<Type> :: LinearNode(Type data) : Node<Type>(data)

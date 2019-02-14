@@ -112,14 +112,14 @@ Type LinkedList<Type> :: getFromIndex(int index)
     
     LinearNode<Type> * current = front;
     
-    for (int Position = 0; position < index; position++ )
+    for (int Position = 0; Position < index; Position++ )
     {
         current = current->getNextNode();
     }
     
     data = current->getData();
     
-    return datal
+    return data;
 }
 template <class Type>
 Type LinkedList<Type> :: remove(int index)
@@ -128,7 +128,7 @@ Type LinkedList<Type> :: remove(int index)
     
     LinearNode<Type> * current = front;
     LinearNode<Type> * toBeRemoved = nullptr;
-    LinearNode<Type> * previous = nullptr
+    LinearNode<Type> * previous = nullptr;
     
     Type removedData;
     
@@ -170,7 +170,7 @@ LinearNode<Type> * LinkedList<Type> :: getEnd()
 {
     return this -> end;
 }
-/template <class Type>
+template <class Type>
 LinearNode<Type> * LinkedList<Type> :: getFront()
 {
     return this -> front;
@@ -180,7 +180,7 @@ int LinkedList<Type> :: getSize() const
 {
     return this->size;
 }
-//template <class Type>
+template <class Type>
 bool LinkedList<Type> :: contains(Type thingToFind)
 {
     bool exists = false;

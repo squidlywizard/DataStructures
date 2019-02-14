@@ -28,7 +28,7 @@ public:
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
-}
+};
 template <class Type>
 Stack<Type> :: Stack() : LinkedList<Type>()
 {
@@ -55,8 +55,8 @@ void Stack<Type> :: push(Type data)
     {
         add->setNextNode(this->front);
     }
-    this-> = add;
-    this->size++
+    this-> add;
+    this->size++;
 }
 template <class Type>
 void Stack<Type> :: add(Type data)
@@ -81,7 +81,7 @@ Type Stack<Type> :: pop()
     
     this->size--;
     
-    return removed
+    return removed;
 }
 
 template <class Type>
@@ -90,13 +90,13 @@ Type Stack<Type> :: remove(int index)
     assert(index == 0);
     return pop();
 }
-template <class type>
+template <class Type>
 Type Stack<Type> :: peek()
 {
     assert(this->size > 0);
     return this->getFront()->getData();
 }
-template <class type>
+template <class Type>
 Type Stack<Type> :: getFromIndex(int index)
 {
     assert(index == 0);

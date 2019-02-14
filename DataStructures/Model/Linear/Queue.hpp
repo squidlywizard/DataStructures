@@ -31,7 +31,7 @@ public:
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
-}
+};
 template <class Type>
 Queue<Type> :: Queue() : LinkedList<Type>()
 {
@@ -102,7 +102,7 @@ void Queue<Type> :: clear()
 {
     while(this->front != nullptr)
     {
-        cout << dequeue() << endl
+        cout << dequeue() << endl;
     }
 }
 template <class Type>
