@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1462872E22147E7A00A3DF27 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1462872C22147E7A00A3DF27 /* LinearTester.cpp */; };
-		147073962209DD170012CAB8 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 147073952209DD170012CAB8 /* CrimeData.cpp */; };
-		147073982209DD1E0012CAB8 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 147073972209DD1E0012CAB8 /* Music.cpp */; };
 		1470739E2209DDB20012CAB8 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1470739C2209DDB20012CAB8 /* Timer.cpp */; };
 		147073A12209EB4B0012CAB8 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1470739F2209EB4B0012CAB8 /* FileController.cpp */; };
 		14C7BA8C21FF5D9B00F8DC21 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14C7BA8A21FF5D9B00F8DC21 /* Controller.cpp */; };
@@ -35,12 +33,6 @@
 		1462872A22146EF700A3DF27 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		1462872C22147E7A00A3DF27 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		1462872D22147E7A00A3DF27 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
-		147073932209DD0D0012CAB8 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = crime.csv; path = ../../../../../Downloads/crime.csv; sourceTree = "<group>"; };
-		147073942209DD120012CAB8 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CrimeData.hpp; path = ../../../../../Downloads/CrimeData.hpp; sourceTree = "<group>"; };
-		147073952209DD170012CAB8 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CrimeData.cpp; path = ../../../../../Downloads/CrimeData.cpp; sourceTree = "<group>"; };
-		147073972209DD1E0012CAB8 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Music.cpp; path = ../../../../../Downloads/Music.cpp; sourceTree = "<group>"; };
-		147073992209DD220012CAB8 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = music.csv; path = ../../../../../Downloads/music.csv; sourceTree = "<group>"; };
-		1470739A2209DD260012CAB8 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Music.hpp; path = ../../../../../Downloads/Music.hpp; sourceTree = "<group>"; };
 		1470739C2209DDB20012CAB8 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		1470739D2209DDB20012CAB8 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		1470739F2209EB4B0012CAB8 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
@@ -106,12 +98,6 @@
 		147073922209DC640012CAB8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				1470739A2209DD260012CAB8 /* Music.hpp */,
-				147073992209DD220012CAB8 /* music.csv */,
-				147073972209DD1E0012CAB8 /* Music.cpp */,
-				147073952209DD170012CAB8 /* CrimeData.cpp */,
-				147073942209DD120012CAB8 /* CrimeData.hpp */,
-				147073932209DD0D0012CAB8 /* crime.csv */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -255,11 +241,9 @@
 			files = (
 				14C7BA8C21FF5D9B00F8DC21 /* Controller.cpp in Sources */,
 				14C7BA8E21FF5EC200F8DC21 /* Runner.cpp in Sources */,
-				147073962209DD170012CAB8 /* CrimeData.cpp in Sources */,
 				1462872E22147E7A00A3DF27 /* LinearTester.cpp in Sources */,
 				14FBFEE7220C79E80021B06F /* Music.cpp in Sources */,
 				1470739E2209DDB20012CAB8 /* Timer.cpp in Sources */,
-				147073982209DD1E0012CAB8 /* Music.cpp in Sources */,
 				147073A12209EB4B0012CAB8 /* FileController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
