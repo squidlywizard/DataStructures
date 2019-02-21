@@ -33,6 +33,7 @@ public:
     Type setAtIndex(int index, Type item);
     int getSize() const;
 };
+
 template <class Type>
 CircularList<Type> :: CircularList()
 {
@@ -50,6 +51,41 @@ CircularList<Type> :: ~CircularList()
         delete current;
         current = front;
     }
+}
+template <class Type>
+void CirculatList<Type> :: addAtIndex(int index, Type item)
+{
+    assert (index >= 0 && index <= this->size);
+    DoubleNode<Type> * next;
+    DoubleNode<Type> * previous;
+    DoubleNode<Type> * addMe;
+    
+    if (index < this->size)
+    {
+        next = findNode(index);
+        previous = next->getPrevious();
+    }
+    else if (index == this->size)
+    {
+        next = this->front;
+        previous = this->end;
+        
+    }
+    
+    addMe = new DoubleNode<Type>(item, previous, next);
+    
+    if(index == 0)
+    {
+        this->front = addMe;
+    }
+    else if(index == this->size)
+    {
+        this->end = addMe;
+    }
+    previous->setNext(addMe);
+    next->setPrevious(addMe);
+    this->size++;
+    
 }
 template <class Type
 DoubleNode<Type> * CircularList<Type> :: findNode(int index)
@@ -129,7 +165,7 @@ Type Cirular List<Type :: remove(int index)
 }
 
 template <class Type>
-int CircularList<Type> :: getSize() const
+int CircularList<Type> :: getSize() constd
 {
     return this->size;
 }
