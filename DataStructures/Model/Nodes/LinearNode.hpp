@@ -14,6 +14,7 @@
 template <class Type>
 class LinearNode : public Node<Type>
 {
+
 private:
     LinearNode<Type> * next;
 public:

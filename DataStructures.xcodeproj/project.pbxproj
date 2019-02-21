@@ -42,6 +42,7 @@
 		147073A52209ECA40012CAB8 /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		147073A62209ECA60012CAB8 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		147073A72209ECAA0012CAB8 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		14967D0A221EF070006C2497 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
 		14AADFE42204997000E896A4 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		14AADFE522049D8100E896A4 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		14C7BA7A21FF5B6100F8DC21 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +72,7 @@
 			children = (
 				14C7BA8F21FF60E900F8DC21 /* Node.hpp */,
 				142599BF2201F8DF00842E9A /* LinearNode.hpp */,
+				14967D0A221EF070006C2497 /* DoubleNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
