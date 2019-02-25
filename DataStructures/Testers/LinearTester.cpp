@@ -44,3 +44,19 @@ void LinearTester :: testVsSTL()
     musicSTL.resetTimer();
     
 }
+void LinearTester :: testVsQueue()
+{
+    vector<CrimeData> maniaCrime;
+    LinkedList<CrimeData> manicCrime= FileController :: readDataToList("/Users/zden9518/Documents/C++ electric boogaloo/DataStructures/DataStructures/Resources/crime.csv");
+    
+    
+    
+}
+void LinearTester :: testVsStack()
+{
+    
+}
+void LinearTester :: testVsDouble()
+{
+    
+}
