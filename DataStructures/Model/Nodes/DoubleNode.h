@@ -12,7 +12,7 @@
 #include "Node.hpp"
 
 template <class Type>
-class doubleNode : public Node<Type>
+class DoubleNode : public Node<Type>
 {
 protected:
     DoubleNode<Type> * previous;
@@ -29,7 +29,7 @@ public:
     void setPrevious(DoubleNode<Type> * previous);
     void setNext(DoubleNode<Type> * next);
     
-}
+};
 template <class Type>
 DoubleNode<Type> :: DoubleNode() : Node<Type> ()
 {
@@ -44,7 +44,7 @@ DoubleNode<Type> :: DoubleNode(Type data) : Node<Type>(data)
     next = nullptr;
     
 }
-Template <class Type>
+template <class Type>
 DoubleNode<Type> :: DoubleNode(Type data, DoubleNode<Type> *previous, DoubleNode<Type>* next) : Node<Type>(data)
 {
     this->previous = previous;

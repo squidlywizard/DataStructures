@@ -199,4 +199,5 @@ bool LinkedList<Type> :: contains(Type thingToFind)
     
     return exists;
 }
+
 #endif /* LinkedList_h */

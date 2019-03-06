@@ -12,6 +12,7 @@
 #include "../Controller/Tools/Timer.hpp"
 #include "../Controller/FileController.hpp"
 
+#include "../Model/Linear/CircularList.hpp"
 #include "../Model/Linear/LinkedList.hpp"
 #include "../Model/Linear/Stack.hpp"
 #include "../Model/Linear/Queue.hpp"

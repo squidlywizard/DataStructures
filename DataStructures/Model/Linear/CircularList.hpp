@@ -53,7 +53,7 @@ CircularList<Type> :: ~CircularList()
     }
 }
 template <class Type>
-void CirculatList<Type> :: addAtIndex(int index, Type item)
+void CircularList<Type> :: addAtIndex(int index, Type item)
 {
     assert (index >= 0 && index <= this->size);
     DoubleNode<Type> * next;
@@ -87,7 +87,7 @@ void CirculatList<Type> :: addAtIndex(int index, Type item)
     this->size++;
     
 }
-template <class Type
+template <class Type>
 DoubleNode<Type> * CircularList<Type> :: findNode(int index)
 {
     assert (index >= 0 && index < this->size);
@@ -109,7 +109,7 @@ DoubleNode<Type> * CircularList<Type> :: findNode(int index)
             nodeToFind = nodeToFind->getPrevious();
         }
     }
-    return nodeToFind
+    return nodeToFind;
 }
 template <class Type>
 void CircularList<Type> :: add(Type item)
@@ -129,14 +129,14 @@ void CircularList<Type> :: add(Type item)
     this->size++;
 }
 template <class Type>
-Type CircucularList<Type> :: getFromIndex(int index)
+Type CircularList<Type> :: getFromIndex(int index)
 {
     assert (index >= 0 && index < this->size);
     DoubleNode<Type> * holder = findNode(index);
     return holder->getData();
 }
 template <class Type>
-Type Cirular List<Type :: remove(int index)
+Type CircularList<Type> :: remove(int index)
 {
     assert (index >= 0 && index < this->size);
     
@@ -165,7 +165,7 @@ Type Cirular List<Type :: remove(int index)
 }
 
 template <class Type>
-int CircularList<Type> :: getSize() constd
+int CircularList<Type> :: getSize() const
 {
     return this->size;
 }

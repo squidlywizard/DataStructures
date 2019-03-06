@@ -46,10 +46,19 @@ void LinearTester :: testVsSTL()
 }
 void LinearTester :: testVsQueue()
 {
-    vector<CrimeData> maniaCrime;
+    Timer crimeTimerSTL, crimeTimerCir;
+    crimeTimerSTL.startTimer();
     LinkedList<CrimeData> manicCrime= FileController :: readDataToList("/Users/zden9518/Documents/C++ electric boogaloo/DataStructures/DataStructures/Resources/crime.csv");
+    crimeTimerSTL.stopTimer();
     
     
+    crimeTimerCir.startTimer();
+    CircularList<CrimeData> maniaCrime = FileController :: readCrimeToCicularList("/Users/zden9518/Documents/C++ electric boogaloo/DataStructures/DataStructures/Resources/crime.csv");
+    crimeTimerCir.stopTimer();
+    
+    crimeTimerSTL.displayInformation();
+    crimeTimerCir.displayInformation();
+    cout << "A difference of: "<< crimeTimerSTL.getTimeInMicroseconds() - crimeTimerCir.getTimeInMicroseconds() << "microseconds" << endl;
     
 }
 void LinearTester :: testVsStack()

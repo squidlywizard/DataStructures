@@ -142,3 +142,36 @@ LinkedList<Music> FileController:: musicDataToList(string fileName)
     }
     return musicList;
 }
+CircularList<CrimeData> FileController:: readCrimeToCicularList(string fileName)
+{
+    CircularList<CrimeData> crimes;
+
+    string currentCSVLine;
+    int rowCount = 0;
+
+    ifstream dataFile(fileName);
+
+    if (dataFile.is_open())
+    {
+        while (!dataFile.eof())
+        {
+            getline(dataFile, currentCSVLine, '\r');
+
+            if (rowCount != 0)
+            {
+                if(currentCSVLine.length() != 0)
+                {
+                    CrimeData row(currentCSVLine);
+                    
+                }
+            }
+            rowCount++;
+        }
+        dataFile.close();
+    }
+    else
+    {
+        cerr << "NO FILE" << endl;
+    }
+    return crimes;
+}

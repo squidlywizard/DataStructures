@@ -42,6 +42,7 @@
 		147073A52209ECA40012CAB8 /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		147073A62209ECA60012CAB8 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		147073A72209ECAA0012CAB8 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		1493802C223030FA0011E52D /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		14967D0A221EF070006C2497 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
 		14967D0B221EF811006C2497 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		14AADFE42204997000E896A4 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
@@ -116,6 +117,14 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		1493802B22302CAD0011E52D /* NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+				1493802C223030FA0011E52D /* Graph.hpp */,
+			);
+			path = NonLinear;
+			sourceTree = "<group>";
+		};
 		14C7BA7121FF5B6100F8DC21 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +165,7 @@
 		14C7BA8521FF5BDD00F8DC21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1493802B22302CAD0011E52D /* NonLinear */,
 				142599C0220205FC00842E9A /* Linear */,
 				142599BE2201F0DC00842E9A /* Nodes */,
 			);
