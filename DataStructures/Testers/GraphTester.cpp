@@ -138,6 +138,11 @@ void GraphTester:: testGraphs()
 }
 void GraphTester:: findCheapestTraversal()
 {
-//    while(int i <)
-//    cout<<
+    int I = 0;
+    while(I<puzzle.size())
+    {
+        
+        I++;
+    }
+    
 }
