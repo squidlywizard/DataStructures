@@ -46,12 +46,36 @@ void GraphTester :: setup()
     puzzle.addVertex("top ");
     puzzle.addVertex("down ");
     puzzle.addVertex("it ");
+    puzzle.addVertex("Epson ");
+    puzzle.addVertex("Macbook ");
+    puzzle.addVertex("study ");
+    puzzle.addVertex("guide ");
+    puzzle.addVertex("necessary ");
+    puzzle.addVertex("16 ");
+    puzzle.addVertex("17 ");
+    puzzle.addVertex("18 ");
+    puzzle.addVertex("19 ");
+    puzzle.addVertex("11 ");
+    puzzle.addVertex("14 ");
+    puzzle.addVertex("12 ");
+    puzzle.addVertex("10 ");
+    puzzle.addVertex("Hopper ");
+    
+    
     
     puzzle.addEdgeUndirected(18,22);
-    puzzle.addEdgeUndirected(12,20);
+    puzzle.addEdgeUndirected(2,7);
+    puzzle.addEdgeUndirected(7,47);
+    puzzle.addEdgeUndirected(46,44);
+    
+    
+    puzzle.addEdge(17,28);
+    puzzle.addEdge(28 ,43);
+    puzzle.addEdge(12,20);
+    puzzle.addEdge(12,39);
     puzzle.addEdge(9,8);
     puzzle.addEdge(33,19);
-    puzzle.addEdge(8,27);
+    puzzle.addEdge(9,27);
     puzzle.addEdge(6, 24);
     puzzle.addEdge(4, 17);
     puzzle.addEdge(5, 25);
@@ -60,7 +84,7 @@ void GraphTester :: setup()
     puzzle.addEdge(3, 11);
     puzzle.addEdge(29, 26);
     puzzle.addEdge(28,28);
-    puzzle.addEdge(27,5);
+    puzzle.addEdge(9,5);
     puzzle.addEdge(26, 4);
     puzzle.addEdge(25,21);
     puzzle.addEdge(24, 31);
@@ -104,5 +128,6 @@ void GraphTester :: setup()
     puzzle.addEdgeCost(12, 22, 13);
     puzzle.addEdgeCost(13, 15, 88);
     puzzle.addEdgeCost(19, 13, 21);
-    
+
+    puzzle.costTraversal( puzzle, 0);
 }
