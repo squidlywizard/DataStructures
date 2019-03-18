@@ -11,9 +11,11 @@
 using namespace std;
 void Controller:: start()
 {
-    cout << "we got a Data Structurs app and this is it"<<endl;
+   // cout << "we got a Data Structurs app and this is it"<<endl;
     //usingNodes();
-    testLinear();
+   // testLinear();
+    testGraph();
+    
 }
 void Controller:: usingNodes()
 {
@@ -24,6 +26,11 @@ void Controller:: usingNodes()
     cout << wordHolder.getData() << endl;
     wordHolder.setData("replaced text");
     cout << wordHolder.getData() << endl;
+}
+void Controller :: testGraph()
+{
+    GraphTester fug;
+    fug.testGraphs();
 }
 
 void Controller :: testLinear()

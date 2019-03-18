@@ -14,12 +14,15 @@
 #include "../Model/Nodes/LinearNode.hpp"
 #include "FileController.hpp"
 #include "../Testers/LinearTester.hpp"
+#include "/Users/zden9518/Documents/C++ electric boogaloo/DataStructures/DataStructures/Model/NonLinear/Graph.hpp"
+#include "/Users/zden9518/Documents/C++ electric boogaloo/DataStructures/DataStructures/Testers/GraphTester.hpp"
 using namespace std;
 
 class Controller{
 private:
     void usingNodes();
     void testLinear();
+    void testGraph();
 public:
     void start ();
 
