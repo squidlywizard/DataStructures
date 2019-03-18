@@ -129,5 +129,15 @@ void GraphTester :: setup()
     puzzle.addEdgeCost(13, 15, 88);
     puzzle.addEdgeCost(19, 13, 21);
 
-    puzzle.costTraversal( puzzle, 0);
+    
+}
+void GraphTester:: testGraphs()
+{
+    setup();
+    
+}
+void GraphTester:: findCheapestTraversal()
+{
+//    while(int i <)
+//    cout<<
 }
