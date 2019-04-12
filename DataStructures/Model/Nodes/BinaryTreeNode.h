@@ -9,7 +9,7 @@
 #ifndef BinaryTreeNode_h
 #define BinaryTreeNode_h
 
-#include "Node.hpp";
+#include "Node.hpp"
 template <class Type>
 class BinaryTreeNode : public Node<Type>
 {
@@ -74,8 +74,7 @@ void BinaryTreeNode<Type> :: setRightNode(BinaryTreeNode<Type> * right)
 template <class Type>
 void BinaryTreeNode<Type> :: setLeftNode(BinaryTreeNode<Type> * left)
 {
-    this->left = left:
-}
+    this->left = left;}
 
 
 
