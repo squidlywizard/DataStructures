@@ -28,7 +28,9 @@ public:
 
 template <class Type>
 Node<Type> :: Node()
-{}
+{
+    
+}
 template <class Type>
 Node<Type> :: Node(Type data)
 {

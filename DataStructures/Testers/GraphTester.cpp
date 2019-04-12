@@ -139,7 +139,7 @@ void GraphTester:: testGraphs()
 void GraphTester:: findCheapestTraversal()
 {
     int I = 0;
-    while(I<puzzle.size())
+    while(I < puzzle.size())
     {
         
         I++;

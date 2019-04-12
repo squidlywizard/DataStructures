@@ -56,6 +56,7 @@
 		14C7BA8B21FF5D9B00F8DC21 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		14C7BA8D21FF5EC200F8DC21 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		14C7BA8F21FF60E900F8DC21 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		14DD40FD2260D91700B93554 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
 		14DDE8F02211D61700105B54 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		14FBFEE3220C79CD0021B06F /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Music.hpp; path = ../../../../../Downloads/Music.hpp; sourceTree = "<group>"; };
 		14FBFEE6220C79E80021B06F /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Music.cpp; path = ../../../../../Downloads/Music.cpp; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				14C7BA8F21FF60E900F8DC21 /* Node.hpp */,
 				142599BF2201F8DF00842E9A /* LinearNode.hpp */,
 				14967D0A221EF070006C2497 /* DoubleNode.h */,
+				14DD40FD2260D91700B93554 /* BinaryTreeNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
