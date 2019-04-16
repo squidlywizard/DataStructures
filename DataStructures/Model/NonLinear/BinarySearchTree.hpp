@@ -23,7 +23,17 @@ protected:
     bool isBalanced(BinaryTreeNode<Type> * startNode);
     bool isComlete(BinaryTreeNode<Type> * startNode, int index, int size);
     
-    void inOrderTraversal(Binary)
-}
+    void inOrderTraversal(BinaryTreeNode<Type> * startNode);
+    void preOrderTraversal(BinaryTreeNode<Type> * preStart);
+    void postOrderTraversal(BinaryTreeNode<Type> * postStart);
+    
+    void destroyTree(BinaryTreeNode<Type> * node);
+    
+    BinaryTreeNode<Type> * getRightMostChild(BinaryTreeNode<Type> * current);
+    BinaryTreeNode<Type> * getLeftMostChild(BinaryTreeNode<Type> * current);
+    
+    void removeNode(BinaryTreeNode<Type> * removeMe);
+    
+};
 
 #endif /* BinarySearchTree_h */
