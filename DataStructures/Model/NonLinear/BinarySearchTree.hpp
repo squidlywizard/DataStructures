@@ -56,6 +56,7 @@ public:
     Type findMinimum();
     Type findMaximum();
 };
+
 template <class Type>
 int BinarySearchTree<Type> :: getHeight()
 {
