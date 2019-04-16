@@ -8,7 +8,7 @@
 
 #ifndef Tree_h
 #define Tree_h
-#include "/Users/zden9518/Documents/C++ electric boogaloo/DataStructures/DataStructures/Model/Nodes/BinaryTreeNode.h"
+#include "/Users/zden9518/Documents/C++ electric boogaloo/DataStructures/DataStructures/Model/Nodes/BinaryTreeNode.hpp"
 
 template <class Type>
 class Tree
