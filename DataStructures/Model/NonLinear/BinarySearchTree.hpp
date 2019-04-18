@@ -161,7 +161,7 @@ void BinarySearchTree<Type> :: preOrderTraversal(BinaryTreeNode<Type> * currentN
     }
 }
 template <class Type>
-void BinarySearchTree<Type> :: postOrderTravesal()
+void BinarySearchTree<Type> :: postOrderTravesal()//ヽ༼ಥل͟ಥ༽¤=[]:::::>
 {
     postOrderTraversal(this->root);
 }
