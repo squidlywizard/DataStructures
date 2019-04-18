@@ -57,6 +57,27 @@ public:
     Type findMaximum();
 };
 template <class Type>
+int BinarySearchTree<Type> :: calculateSize(BinaryTreeNode<Type> * startNode)
+{
+    return -1;
+}
+template <class Type>
+bool BinarySearchTree<Type> :: isBalanced(BinaryTreeNode<Type> * startNode)
+{
+    return false;
+}
+template <class Type>
+bool BinarySearchTree<Type> :: isComplete(BinaryTreeNode<Type> * startNode, int index, int size)
+{
+    return false;
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: calculateHeight(BinaryTreeNode<Type> * startNode)
+{
+    return -1;
+}
+template <class Type>
 BinarySearchTree<Type> :: ~BinarySearchTree<Type>()
 {
     destroyTree(this->root);
