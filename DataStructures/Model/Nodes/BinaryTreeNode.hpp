@@ -54,7 +54,7 @@ BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRootNode()
 template <class Type>
 BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftNode()
 {
-    return this->Left;
+    return this->left;
 }
 template <class Type>
 BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRightNode()

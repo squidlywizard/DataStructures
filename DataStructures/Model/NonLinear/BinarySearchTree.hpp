@@ -41,7 +41,7 @@ public:
     
     void inOrderTraversal();
     void preOrderTraversal();
-    void postOrderTraversal();
+    void postOrderTravesal();
     void demoTraversalSteps(BinaryTreeNode<Type> * node);
     
     int getSize();
@@ -57,6 +57,17 @@ public:
     Type findMaximum();
 };
 template <class Type>
+BinarySearchTree<Type> :: BinarySearchTree()
+{
+    
+}
+
+template <class Type>
+ void BinarySearchTree<Type> :: demoTraversalSteps(BinaryTreeNode<Type> * node)
+{
+    
+}
+template <class Type>
 int BinarySearchTree<Type> :: calculateSize(BinaryTreeNode<Type> * startNode)
 {
     return -1;
@@ -66,11 +77,13 @@ bool BinarySearchTree<Type> :: isBalanced(BinaryTreeNode<Type> * startNode)
 {
     return false;
 }
+
 template <class Type>
 bool BinarySearchTree<Type> :: isComplete(BinaryTreeNode<Type> * startNode, int index, int size)
 {
     return false;
 }
+
 
 template <class Type>
 int BinarySearchTree<Type> :: calculateHeight(BinaryTreeNode<Type> * startNode)
@@ -127,7 +140,7 @@ void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * currentNo
     {
         inOrderTraversal(currentNode->getLeftNode());
         cout << currentNode->getData() << endl;
-        inOrderTraversal(currentNode->getrightNode());
+        inOrderTraversal(currentNode->getRightNode());
     }
 }
 
@@ -148,7 +161,7 @@ void BinarySearchTree<Type> :: preOrderTraversal(BinaryTreeNode<Type> * currentN
     }
 }
 template <class Type>
-void BinarySearchTree<Type> :: postOrderTraversal()
+void BinarySearchTree<Type> :: postOrderTravesal()
 {
     postOrderTraversal(this->root);
 }
@@ -181,11 +194,11 @@ void BinarySearchTree<Type> :: insert(Type itemToInsert)
             previous = current;
             if(itemToInsert < current->getData())
             {
-                current = current->getLeftChild();
+                current = current->getLeftNode();
             }
             else if(itemToInsert > current->getData())
             {
-                current = current->getRightChild();
+                current = current->getRightNode();
             }
             else // remove cerr after verifing I understand
             {
@@ -198,11 +211,11 @@ void BinarySearchTree<Type> :: insert(Type itemToInsert)
         
         if (previous->getData() > itemToInsert)
         {
-            previous->setLeftChild(insertMe);
+            previous->setLeftNode(insertMe);
         }
         else
         {
-            previous->setRightChild(insertMe);
+            previous->setRightNode(insertMe);
         }
         insertMe->setRootNode(previous);
     }
