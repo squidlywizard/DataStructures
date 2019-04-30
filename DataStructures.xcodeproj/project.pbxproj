@@ -35,6 +35,7 @@
 		142599C12202061900842E9A /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		143867AA2232CE8100164949 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		143867AB2232CF5500164949 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		14400F4222788BA200BC1E05 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		1462872A22146EF700A3DF27 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		1462872C22147E7A00A3DF27 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		1462872D22147E7A00A3DF27 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 				14DD41012260E3DE00B93554 /* Tree.hpp */,
 				1493802C223030FA0011E52D /* Graph.hpp */,
 				14DD41032260E94900B93554 /* BinarySearchTree.hpp */,
+				14400F4222788BA200BC1E05 /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
