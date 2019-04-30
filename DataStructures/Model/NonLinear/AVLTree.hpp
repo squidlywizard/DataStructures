@@ -63,7 +63,11 @@ BinaryTreeNode<Type> * AVLTree<Type> :: insertNode(BinaryTreeNode<Type> * parent
     if(partent == nullptr)
     {
         parent = new BinaryTreeNode<Type>(inserted);
+       if( this->getRoot() == nullptr)
+       {
+           
         this->setRoot(parent);
+       }
         return parent;
     }
     else if(inserted < parent->getNodeData())
@@ -111,7 +115,7 @@ BinaryTreeNode<Type> * AVLTree<Type> :: removeNode(BinaryTreeNode<Type> * parent
             
             parent->setNodeData(leftMost->getNodeData());
             parent->setRightNode(removeNode(parent->getRightChild(), inserted));
-            <#statements#>
+            
         }
       
     }
@@ -123,7 +127,37 @@ BinaryTreeNode<Type> * AVLTree<Type> :: removeNode(BinaryTreeNode<Type> * parent
     
     return balanceSubTree(parent);
 }
-
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: balanceSubTree (BinaryTreeNode<Type> * parent)
+{
+    int balanceFactor = heightDifference(parent);
+    
+    if(balanceFaceor > 1)
+    {
+        if(geightDifference(parent->getLeftNode()) > 0)
+        {
+            parent = leftRotation(parent);
+        }
+        else
+        {
+            parent = leftRightRotation(partent);
+        }
+        
+    }
+    else if(balanceFactor < -1)
+    {
+        if(heightDifference([aremt->getRightNode()) > 0)
+            {
+                parent = rightLeftTotation(parent);
+            }
+        else
+            {
+               parent = rightRotation(parent);
+            }
+    }
+                             return parent;
+        }
+        
 
 
 #endif /* AVLTree_h */
